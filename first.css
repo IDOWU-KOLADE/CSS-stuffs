@@ -1,0 +1,60 @@
+.firstp {
+    background-color: mediumseagreen;
+    /* Shades of gray, the 3 will be the same not full to 255 and not low to 0 */
+    color: rgb(70, 70, 70, 70%);
+    border : 2px solid blue;
+}
+body {
+     background-image: url('IMAGES/BG-images/tree.jpg');
+/*      background-attachment decides whether the bg image should be fixed
+     or scroll as the page is scrolled */
+     background-attachment: fixed;
+     background-size: cover;
+     background-color: lightblue;
+     background-repeat: no-repeat;
+     background-position: right top;
+
+ }
+ .wow p {
+    background-image: url('IMAGES/BG-images/spiral-dk.jpg');
+    /* background shortand is in the order color, image, repeat, position */
+    border-style: dotted solid ;
+    opacity: 0.7;
+    border-color: black red green blue;
+    border-width: 4px;
+    /* border-width is in the form top, right, bottom , left */
+    /* for the two shortcut property of the border width, it's in the form (top and bottom) then (sides) */
+     /* tHE SHORTCUT FOR BORDER IS IN FORM WIDTH STYLE AND COLOR  */
+     /* margin of auto automatticLLY CENTERS THE ELEMET HORIZONTALLY */
+}
+.anticipate {
+  padding: 10px;
+    box-sizing: border-box;
+    width: 40px;
+    text-align: center; 
+    
+}
+h2{
+    text-decoration-line: line-through;
+}
+.testrun {
+    /* Just like a paragraph text indent... */
+    text-indent: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    background-color: greenyellow;
+    max-height: 500px;
+    max-width: 600px;
+    line-height: 120%;
+      font-family:  'sofia', cursive;
+    margin: 20px auto;
+    padding: 10px;
+    text-align-last: center;
+    border: 2px solid black;
+    font-size: 1.7vw;
+    outline: 5px solid blueviolet;
+}
+.tree-img{
+    width: 100%;
+    max-height: inherit;
+}
